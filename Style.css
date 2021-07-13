@@ -26,6 +26,7 @@ img.welcome{
     background-color: #555;
     color: white;
     padding: 15px;
+    height:auto;
   }
   
   body{
@@ -45,9 +46,12 @@ img.welcome{
         color:black;
     }
     img.Belizajeth{
-    width:35px;
+    width:70px;
     }  
   }
+.stand{
+    color:white;
+}
   
   .sizing{
       display: block;
