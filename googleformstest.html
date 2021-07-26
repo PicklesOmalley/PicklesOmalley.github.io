@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <br>
+    <br>
+    <hr>
+     
+    <!-- Make sure you don't change the form action-->
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <!-- Replace with accesKey sent to your email -->
+        <input type="hidden" name="accessKey" value="a1ed871d-afb8-421f-9465-68bfdb6fea9e"> <!-- Required -->
+        <input type="text" name="name" placeholder="Full Name"> <!-- Optional -->
+        <input type="text" name="email" placeholder="Email"> <!-- Optional -->
+        <input type="text" name="phone" placeholder="Phone Number"> <!-- Optional -->
+        <textarea name="message" placeholder="Write your message here."></textarea> <!-- Optional -->
+        <input type="hidden" name="replyTo" value="accordianarrow@gmail.com"> <!-- Optional -->
+
+        <input type="hidden" name="redirectTo" value="https://example.com/contact/success"> <!-- Optional -->
+        <input type="submit" value="Submit" />
+    </form>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
