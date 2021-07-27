@@ -55,20 +55,20 @@
                             <form action="https://api.staticforms.xyz/submit" method="post">
                             <!-- Replace with accesKey sent to your email -->
                             <input type="hidden" name="accessKey" value="a1ed871d-afb8-421f-9465-68bfdb6fea9e"> <!-- Required -->
-                            <div class="form-row">
+                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                  <input type="text" name="name" placeholder="Full Name">
+                                  <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
                                 </div>
                                 <div class="form-group col-md-12 ">
-                                  <input type="text" name="email" placeholder="Email"
+                                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <input type="text" name="phone" placeholder="Phone Number"> <!-- Optional -->
+                                    <input id="Mobile No." name="Mobile No." placeholder="Mobile No." class="form-control" required="required" type="text">
                                 </div>
                               </div>
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                          <textarea name="message" placeholder="Write your message here."></textarea> <!-- Optional -->
+                                          <textarea id="comment" name="comment" cols="40" rows="5" placeholder="Your Message"class="form-control"></textarea>
                                 </div>
                             </div>
                             <input type="hidden" name="replyTo" value="accordianarrow@gmail.com"> <!-- Optional -->
