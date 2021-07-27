@@ -13,7 +13,80 @@
     <br>
     <br>
     <hr>
-     
+     <section class="contact py-5 bg-light" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <div class="col-md-6">
+                <div class="address">
+                    
+                <h5>Address:</h5>
+                <ul class="list-unstyled">
+                    <li> T-Mobile Customer Relations</li>
+                    <li> PO Box 37380</li>
+                    <li> Albuquerque, NM 87176-7380</li>
+                </ul>
+                <p>Please don't send anything to this address.</p>
+                </div>
+                <div class="email">
+                <h5>Email:</h5>
+                <ul class="list-unstyled">
+                    <li> info@email.com</li>
+                    <li> info@email.com</li>
+                </ul>
+                </div>
+                <div class="phone">
+                    <h5>Phone:</h5>
+                    <ul class="list-unstyled">
+                    <li> +91- 8800XXXXXX34</li>
+                    <li> +91- 8800XXXXXX34</li>
+                </ul>
+                </div>
+                <hr>
+            </div>
+          
+          <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                         <!-- Make sure you don't change the form action-->
+                            <form action="https://api.staticforms.xyz/submit" method="post">
+                            <!-- Replace with accesKey sent to your email -->
+                            <input type="hidden" name="accessKey" value="a1ed871d-afb8-421f-9465-68bfdb6fea9e"> <!-- Required -->
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                  <input type="text" name="name" placeholder="Full Name">
+                                </div>
+                                <div class="form-group col-md-12 ">
+                                  <input type="text" name="email" placeholder="Email"
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input type="text" name="phone" placeholder="Phone Number"> <!-- Optional -->
+                                </div>
+                              </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                          <textarea name="message" placeholder="Write your message here."></textarea> <!-- Optional -->
+                                </div>
+                            </div>
+                            <input type="hidden" name="replyTo" value="accordianarrow@gmail.com"> <!-- Optional -->
+                            <input type="hidden" name="redirectTo" value="https://picklesomalley.github.io/contact.html"> <!-- Optional -->
+                            <div class="form-row">
+                                <button type="button" class="btn btn-danger">Submit</button>
+                            </div>
+                              
+                              
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    </section>
     <!-- Make sure you don't change the form action-->
     <form action="https://api.staticforms.xyz/submit" method="post">
         <!-- Replace with accesKey sent to your email -->
@@ -24,7 +97,7 @@
         <textarea name="message" placeholder="Write your message here."></textarea> <!-- Optional -->
         <input type="hidden" name="replyTo" value="accordianarrow@gmail.com"> <!-- Optional -->
 
-        <input type="hidden" name="redirectTo" value="https://example.com/contact/success"> <!-- Optional -->
+        <input type="hidden" name="redirectTo" value="https://picklesomalley.github.io/contact.html"> <!-- Optional -->
         <input type="submit" value="Submit" />
     </form>
     
