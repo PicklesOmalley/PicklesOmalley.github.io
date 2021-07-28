@@ -73,29 +73,30 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <div class="card">
+                 <div class="card">
                     <div class="card-body">
                          <form action="https://api.staticforms.xyz/submit" method="post">
                             <input type="hidden" name="accessKey" value="a1ed871d-afb8-421f-9465-68bfdb6fea9e">
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                  <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
+                                  <input type="text" name="name" placeholder="Full Name" class="widen"> 
                                 </div>
                                 <div class="form-group col-md-12 ">
-                                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                  <input type="text" name="email" placeholder="Email" class="widen">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <input id="Mobile No." name="Mobile No." placeholder="Mobile No." class="form-control" required="required" type="text">
+                                    <input type="text" name="phone" placeholder="Phone Number" class="widen">
                                 </div>
                               </div>
                             <div class="form-row">
                                 <div class="form-group col-md-12">
-                                          <textarea id="comment" name="comment" cols="40" rows="5" placeholder="Your Message"class="form-control"></textarea>
+                                          <textarea name="message" placeholder="Write your message here." cols="40" rows="5" class="widen"></textarea>
                                 </div>
                             </div>
-                            <input type="hidden" name="redirectTo" value="./contact.html">
+                            <input type="hidden" name="replyTo" value="accordianarrow@gmail.com"> <!-- Optional -->
+                            <input type="hidden" name="redirectTo" value="https://picklesomalley.github.io/contact.html"> <!-- Optional -->
                             <div class="form-row">
-                                <button type="button" class="btn btn-danger">Submit</button>
+                                <button type="submit" class="btn btn-success" value="Submit" /> Submit </button>
                             </div>
                         </form>
                     </div>
